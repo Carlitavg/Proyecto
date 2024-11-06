@@ -1,0 +1,746 @@
+
+body {
+margin: 0;
+}
+::selection {
+background-color: #d82052; /* Color de fondo rojo oscuro */
+color: #ffffff; /* Color del texto en blanco */
+}
+.imagen1{
+width: calc(100% - 100px);
+height: 900px;
+background-image: url('/Img/maquillaje2.jpg');
+background-size: cover; /* Asegura que la imagen cubra todo el área */
+background-position: center; /* Centra la imagen */
+background-attachment: fixed;
+border-left: 50px solid white;
+border-right: 50px solid white;
+}
+.opaco{
+background-color: rgba(0,0,0,0.6);
+width: 100%;
+height: 100%;
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 40px;
+flex-direction: column;
+}
+.nav{
+display: flex;
+gap: 40px;
+}
+.nav a{
+color: white;
+text-decoration: none;
+font-size: 16px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+}
+.logo img{
+height: 120px;
+width: auto;
+}
+.Text{
+width: 50%; /* Ocupa la mitad del ancho */
+color: white;
+font-family: "Barlow Semi Condensed", serif;
+padding-top: 280px;
+padding-left: 100px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+.Text1{
+font-size: 20px;
+font-weight: 100;
+font-style: normal;
+}
+.Text2{
+font-size: 60px;
+font-weight: 300;
+font-style: normal;
+}
+.button_1{
+color: white;
+font-size: 13px;
+font-family: "Raleway", sans-serif;
+font-weight: 300;
+font-style: normal;
+background-color: transparent;
+border: none;
+padding-bottom: 5px;
+
+}
+.linea {
+width: 85px;
+height: 2px;
+background-color: #d82052; /* Color del subrayado */
+transition: background-color 0.3s; /* Transición para el color del subrayado */
+}
+.button_1:hover {
+color: #d82052; 
+}
+.Bienvenida{
+width: calc(100% - 100px);
+height: 1000px;
+background-image: url('/Img/M4.png');
+background-size: cover;
+text-align: center;
+background-position: bottom center;
+border-left: 50px solid white;
+border-right: 50px solid white;
+border-top: 50px solid white;
+line-height: 1;
+
+}
+.B1{
+font-family: "Barlow Semi Condensed", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 55px;
+padding-top: 20px;
+}
+.B2{
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+line-height: 4;
+color:#464646;
+}
+.Marcas{
+display: flex;
+justify-content: space-between;
+gap: 50px; /* Espacio entre cada elemento */
+max-width: 900px;
+margin: 0 auto;
+line-height: 1.5;
+color:#464646;
+}
+.text_marcas{
+font-family: "Barlow Semi Condensed", serif;
+font-weight: 300;
+font-style: normal;
+font-size: 28px;
+}
+.text_marcas2{
+
+font-size: 16px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.Marcas img{
+
+width: 120px;
+}
+.imagen2{
+width: calc(100% - 100px);
+height: 700px;
+background-image: url('/Img/tienda2.jpeg');
+background-size: cover; /* Asegura que la imagen cubra todo el área */
+background-position: center; /* Centra la imagen */
+background-attachment: fixed;
+border-left: 50px solid white;
+border-right: 50px solid white;
+}
+.cuadro_costado{
+width: 550px;
+height: 500px;
+background-size: cover;
+background-image: url('/Img/cuadro_lateral.png');
+float: right;
+margin: 230px 55px 20px 0;
+
+}
+.SubTitulo2{
+font-family: "Barlow Semi Condensed", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 55px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+flex-direction: column;
+line-height: 1;
+}
+.cuadro_costado_Texto{
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+line-height: 1;
+color:#464646;
+padding-left: 15px;
+padding-right: 15px;
+}
+.button_2{
+color: rgb(0, 0, 0);
+font-size: 13px;
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+padding-top: 30px;
+font-style: normal;
+background-color: transparent;
+border: none;
+padding-bottom: 5px;
+
+}
+.linea2 {
+width: 75px;
+height: 2px;
+background-color: #d82052;
+transition: background-color 0.3s; 
+}
+.button_2:hover {
+color: #d82052; 
+}
+.Productos{
+width: calc(100% - 100px);
+height: 330px;
+background-color: #d82052;
+
+color: white;
+border-left: 50px solid white;
+border-right: 50px solid white;
+flex-direction: column;
+text-align: center;
+display: flex;
+}
+.Titulo_productos{
+font-family: "Barlow Semi Condensed", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 55px;
+padding-top: 50px;
+}
+.Text_produc{
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+line-height: 1.5;
+padding-left: 250px;
+padding-right: 250px;    
+}
+.b{
+    display: block; 
+}
+.button_3{
+color: white;
+font-size: 13px;
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+padding-top: 30px;
+font-style: normal;
+
+background-color: transparent;
+border: none;
+
+
+}
+.linea3 {
+
+width: 130px;
+height: 2px;
+background-color: #ffffff;
+transition: background-color 0.3s;
+
+
+}
+.button_3:hover {
+color: #3d0514; 
+}
+
+.ProductosLista{
+width: calc(100% - 100px);
+height: 700px;
+background-color: #d82052;
+
+color: white;
+border-left: 50px solid white;
+border-right: 50px solid white;
+display: flex;
+padding-top: 30px;
+}
+.elem{
+display: flex;
+padding-top: 30px;
+}
+.elem img{
+width: 120px;
+height: 120px;
+background-size: cover;
+padding-right: 50px;
+}
+.columna1{
+display: flex;
+width: 50%;
+padding-left: 50px;
+flex-direction: column
+
+}
+.columna2{
+display: flex;
+width: 50%;
+padding-left: 50px;
+flex-direction: column
+}
+
+.Descripcion{
+display: flex;
+flex-direction: column;
+
+}
+
+.arriba{
+
+display: flex;
+font-family: "Barlow Semi Condensed", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 30px;
+justify-content: space-between;
+height: 60px;
+align-items: center;
+
+}
+.linea4 {
+width: 400px;
+height: 1px;
+background-color: #ffffff;
+transition: background-color 0.3s;
+}
+.descrip2{
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+padding-top: 10px;
+}
+.Cuidados{
+width: calc(100% - 100px);
+height: 1000px;
+background-image: url('/Img/Fondo_Nubes.png');
+background-size: cover;
+text-align: center;
+background-position: bottom center;
+border-left: 50px solid white;
+border-right: 50px solid white;
+display: flex;
+flex-direction: column;
+}
+.Titulo_Cuidados{
+font-family: "Barlow Semi Condensed", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 55px;
+padding-top: 70px;
+}
+.Text_cuidados{
+font-size: 18px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+line-height: 1.5;
+padding-left: 250px;
+padding-right: 250px; 
+
+}
+.cuidados_img{
+display: flex;
+justify-content: center;
+padding-top: 40px;
+}
+.cuidados_img img{
+width: 260px;
+height: 350px;
+background-size: cover;
+display: flex;
+justify-content: center;
+}
+.cuidados_box{
+width: 300px;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cuidados_box:hover {
+background-color: #fcf2f4;
+}
+.Imagenes{
+border-left: 50px solid white;
+border-right: 50px solid white;
+display: flex;
+}
+.Imagenes img{
+width: 452px;
+height: auto;
+}
+.footer {
+display: flex;
+flex-wrap: wrap;
+background-color: #d82052; /* Fondo en tono maquillaje */
+color: white;
+padding: 10px 100px 0px 120px;/*arriba der abajo izq*/
+justify-content: center;
+}
+.footer-descrip, .footer-section {
+flex: 1;
+min-width: 200px;
+margin: 20px;
+}
+
+.footer-section + .footer-social {
+order: 1;
+min-width: 200px;
+margin-top: 0;
+}
+
+.footer-social .social-icons {
+display: flex;
+gap: 10px;
+}
+
+.footer-social img {
+width: 24px;
+height: 24px;
+}
+
+.footer-bottom {
+width: 100%;
+text-align: center;
+font-size: 12px;
+margin-top: 20px;
+opacity: 0.8;
+}
+.footer h3{
+font-family: "Barlow Semi Condensed", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 30px;
+}
+.footer p{
+font-size: 16px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.imagen_productos{
+    width: calc(100% - 100px);
+    height: 500px;
+    background-image: url('/Img/fondo_productos.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+}
+.productos_texto{
+    color: white;   
+    font-family: "Barlow Semi Condensed", serif;
+    padding-top: 80px;
+    font-size: 85px;
+    text-align: center;
+}
+
+.ProductosLista2{
+    width: calc(100% - 100px);
+    height: 700px;
+    background-color: #e6e6e6;
+
+    color: rgb(0, 0, 0);
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    display: flex;
+    padding-top: 30px;
+}
+.Productos2{
+    width: calc(100% - 100px);
+    height: 330px;
+    background-color: #e6e6e6;
+
+    color:  rgb(0, 0, 0);
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+.imagen_galeria{
+    width: calc(100% - 100px);
+    height: 500px;
+    background-image: url('/Img/fondo_galeria.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+}
+.Galeria_text{
+    width: 100%;
+    height: 330px;
+    background-color: #e6e6e6;
+
+    color: rgb(5, 5, 5);
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+.Imagenes_galeria{
+    border: 50px solid white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 20px;
+}
+.img_galery{
+    overflow: hidden;
+    border-radius: 8px;
+}
+.img_galery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.imagen_nosotros{
+    width: calc(100% - 100px);
+    height: 500px;
+    background-image: url('/Img/fondo_nosotros.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+}
+.Nosotros{
+    width: 100%;
+    height: 330px;
+    background-color: #e6e6e6;
+
+    color: rgb(5, 5, 5);
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+
+.Nosotros_text{
+    width: calc(100% - 100px);
+    height: 1000px;
+    background-image: url('/Img/M4.png');
+    background-size: cover;
+    text-align: center;
+    background-position: bottom center;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    line-height: 1;
+}
+.N{
+    display: flex;
+    line-height: 1.5;
+    color:#464646;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.Text_n{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    max-width: 300px;
+}
+.text_Nosotros{
+    max-width: 300px;
+    font-size: 16px;
+font-family: "Raleway", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.cuadro_costado2{
+    width: 550px;
+    height: 500px;
+    background-size: cover;
+    background-image: url('/Img/Fondo_Nubes.png');
+    float: left;
+    margin: 200px 155px 20px 0;
+    
+    }
+
+
+@media (max-width: 740px) {
+    body,.imagen_nosotros,.Nosotros_text, .header, .nav, .Text, .imagen_productos, .Bienvenida, .imagen_galeria, .Cuidados, .Marcas, .cuadro_costado, .cuadro_costado2, .Productos, .ProductosLista, .columna1, .columna2 {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav a {
+        font-size: 1.1em;
+        padding: 8px 0;
+    }
+
+    .Text h2 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .button_1, .button_2, .button_3 {
+        width: 90%;
+        max-width: 250px;
+        font-size: 1em;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .Bienvenida h1, .Bienvenida p, .B1, .B2 {
+        text-align: center;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .Marcas , .cuidados_img, .Imagenes, .N{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .Marcas div {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .cuadro_costado, .cuadro_costado2 {
+        text-align: center;
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .Productos h1, .Productos p, .Text_produc, .Titulo_productos, .Cuidados p {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.1em;
+    }
+
+    .ProductosLista, .ProductosLista2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+    }
+    
+
+    .columna1, .columna2 {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .elem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .elem img {
+        width: 100px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .Descripcion {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .Descripcion .arriba {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .descrip1, .precio, .descrip2 {
+        font-size: 0.9em;
+    }
+
+    .linea4 {
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    .footer-main {
+        text-align: center;
+        padding: 20px;
+        font-size: 1em;
+    }
+    
+
+    .footer-main h2 {
+        font-size: 1.3rem;
+    }
+
+    #grid-opciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .opcion, .oferta-card, .reseña-card {
+        width: 90%;
+        max-width: 400px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .btn-retiro, .boton-apostar {
+        width: 100%;
+        max-width: 200px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 740px) {
+    img {
+        width: 100px;    
+        height: auto;  
+    }
+}
