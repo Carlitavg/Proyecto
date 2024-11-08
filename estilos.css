@@ -11,7 +11,7 @@ width: calc(100% - 100px);
 height: 900px;
 background-image: url('Img/maquillaje2.jpg');
 background-size: cover; /* Asegura que la imagen cubra todo el área */
-background-position: center; /* Centra la imagen */
+background-position: center;
 background-attachment: fixed;
 border-left: 50px solid white;
 border-right: 50px solid white;
