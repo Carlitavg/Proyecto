@@ -583,7 +583,9 @@ font-style: normal;
         box-sizing: border-box;
         height: auto;
     }
-
+    .Text{
+        padding-top: 350px;
+    }
     .header {
         display: flex;
         flex-direction: column;
@@ -622,7 +624,7 @@ font-style: normal;
         padding: 10px;
     }
 
-    .Marcas , .cuidados_img, .Imagenes, .N{
+    .Marcas , .cuidados_img, .N{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -711,7 +713,9 @@ font-style: normal;
         padding: 20px;
         font-size: 1em;
     }
-    
+    .linea, .linea2{
+        padding-left: 60%;
+    }
 
     .footer-main h2 {
         font-size: 1.3rem;
@@ -723,6 +727,17 @@ font-style: normal;
         align-items: center;
         gap: 15px;
         padding: 15px;
+    }
+    .Imagenes, .Imagenes_galeria{
+        border-left: 25px solid white;
+        border-right: 25px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .Imagenes img{
+        width: 300px;
+        height: auto;
     }
 
     .opcion, .oferta-card, .reseña-card {
