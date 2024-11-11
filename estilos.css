@@ -469,6 +469,55 @@ font-style: normal;
     display: flex;
     padding-top: 30px;
 }
+.columna1_2, .columna2_2, .columna3_2{
+    display: flex;
+    width: 50%;
+    padding-left: 50px;
+    flex-direction: column
+}
+.precio2{
+    color: #464646;
+}
+.Descripcion2{
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    }
+    .arriba2{
+    
+    display: flex;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    
+    }
+    .linea42 {
+    width: 200px;
+    height: 1px;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    }
+    .descrip2_2{
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 10px;
+    }
+    .elem2{
+        display: flex;
+        padding-top: 30px;
+        }
+    .elem2 img{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    padding-right: 30px;
+    }
 .Productos2{
     width: calc(100% - 100px);
     height: 330px;
@@ -582,7 +631,7 @@ font-style: normal;
     }
 
 @media (max-width: 740px) {
-    body,.imagen_nosotros,.Nosotros_text, .header, .nav, .Text, .imagen_productos, .Bienvenida, .imagen_galeria, .Cuidados, .Marcas, .cuadro_costado, .cuadro_costado2, .Productos, .ProductosLista, .columna1, .columna2 {
+    body,.imagen_nosotros,.Nosotros_text, .header, .nav, .Text, .imagen_productos, .Bienvenida, .imagen_galeria, .Cuidados, .Marcas, .cuadro_costado, .cuadro_costado2, .Productos, .ProductosLista, .ProductosLista2, .columna1, .columna2 {
         width: 100%;
         padding: 0;
         margin: 0 auto;
@@ -672,15 +721,16 @@ font-style: normal;
     }
     
 
-    .columna1, .columna2 {
+    .columna1, .columna2, .columna1_2, .columna2_2, .columna3_2 {
         width: 100%;
         max-width: 500px;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding: 0%;
     }
 
-    .elem {
+    .elem, .elem2{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -689,7 +739,7 @@ font-style: normal;
         box-sizing: border-box;
     }
 
-    .elem img {
+    .elem img, elem2 img {
         width: 100px;
         max-width: 100%;
         height: auto;
@@ -707,8 +757,15 @@ font-style: normal;
         width: 100%;
         padding: 5px 0;
     }
+    .arriba2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        text-align: center;
+    }
 
-    .descrip1, .precio, .descrip2 {
+    .descrip1, .precio, .descrip2, .precio2 {
         font-size: 0.9em;
     }
 
