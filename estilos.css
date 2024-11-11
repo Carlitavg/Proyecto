@@ -581,7 +581,6 @@ font-style: normal;
     
     }
 
-
 @media (max-width: 740px) {
     body,.imagen_nosotros,.Nosotros_text, .header, .nav, .Text, .imagen_productos, .Bienvenida, .imagen_galeria, .Cuidados, .Marcas, .cuadro_costado, .cuadro_costado2, .Productos, .ProductosLista, .columna1, .columna2 {
         width: 100%;
@@ -590,6 +589,7 @@ font-style: normal;
         box-sizing: border-box;
         height: auto;
     }
+
     .Text{
         padding-top: 300px;
     }
@@ -599,7 +599,9 @@ font-style: normal;
         align-items: center;
         text-align: center;
     }
-
+    .productos_texto{
+        font-size: 65px;
+    }
     .nav {
         display: flex;
         flex-direction: column;
@@ -758,6 +760,11 @@ font-style: normal;
         width: 100%;
         max-width: 200px;
         margin-top: 10px;
+    }
+    .footer-descrip img{
+        width: 100%;
+        height: auto;
+        padding: 0%;
     }
 }
 @media (max-width: 740px) {
